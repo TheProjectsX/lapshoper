@@ -31,6 +31,91 @@ app.get("/", async (req, res) => {
   res.json({ status: "success", message: "Server is Running!" });
 });
 
+app.get("/products", async (req, res) => {
+  let returnData;
+  const {
+    skip = 0,
+    limit = 15,
+    search,
+    category,
+    brand,
+    priceRange,
+    newestFirst,
+    priceSort,
+  } = req.query;
+
+  let priceMin = 0,
+    priceMax = Infinity;
+  try {
+    priceMin = parseInt(priceRange.split("-")[0], 10);
+    priceMax = parseInt(priceRange.split("-")[1], 10);
+  } catch (error) {}
+
+  const pipeline = [
+    {
+      $match: {
+        price: {
+          $gte: priceMin,
+          $lte: priceMax,
+        },
+      },
+    },
+    {
+      $skip: skip,
+    },
+    {
+      $limit: limit,
+    },
+  ];
+
+  if (search) {
+    pipeline.push({
+      $match: {
+        name: { $regex: search, $options: "i" },
+      },
+    });
+  }
+
+  if (category) {
+    pipeline.push({
+      $match: {
+        category: { $regex: category, $options: "i" },
+      },
+    });
+  }
+
+  if (category) {
+    pipeline.push({
+      $match: {
+        brand: { $regex: brand, $options: "i" },
+      },
+    });
+  }
+
+  if (newestFirst && newestFirst === "true") {
+    pipeline.push({
+      $sort: { createdAt: -1 },
+    });
+  }
+
+  if (priceSort && (priceSort === "high" || priceSort === "low")) {
+    pipeline.push({
+      $sort: { price: priceSort === "high" ? -1 : 1 },
+    });
+  }
+
+  try {
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Internal server error",
+      error: error.message,
+    });
+  }
+
+  res.json({});
+});
+
 // Connecting to MongoDB first, then Starting the Server
 client
   .connect()
