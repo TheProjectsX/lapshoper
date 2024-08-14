@@ -31,6 +31,7 @@ app.get("/", async (req, res) => {
   res.json({ status: "success", message: "Server is Running!" });
 });
 
+// Get the Products
 app.get("/products", async (req, res) => {
   let returnData;
   let {
@@ -146,6 +147,43 @@ app.get("/products", async (req, res) => {
   }
 
   res.json({ success: true, ...returnData });
+});
+
+// Get filtering Data List
+app.get("/get-filter-data", async (req, res) => {
+  try {
+    const categories = await db.collection("products").distinct("category");
+    const brands = await db.collection("products").distinct("brand");
+    const maxPrice = await db
+      .collection("products")
+      .aggregate([
+        {
+          $sort: { price: -1 },
+        },
+        { $limit: 1 },
+        {
+          $project: {
+            _id: 0,
+            maxPrice: "$price",
+          },
+        },
+      ])
+      .toArray();
+
+    const data = {
+      categories,
+      brands,
+      maxPrice: maxPrice[0].maxPrice,
+    };
+
+    res.json({ success: true, ...data });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Internal server error",
+      error: error.message,
+    });
+  }
 });
 
 // Connecting to MongoDB first, then Starting the Server
