@@ -1,0 +1,718 @@
+[
+  {
+    "name": "Dell Inspiron 15 3520 Core i3 12th Gen 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-3520/inspiron-15-3520-black-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i3-1215U (10M Cache, up to 4.40 GHz)",
+      "RAM: 8GB RAM, Storage: 512GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Features: Stereo Speakers"
+    ],
+    "price": 55500,
+    "createdAt": "2024-08-14T13:45:12Z",
+    "brand": "Dell",
+    "category": "Laptops",
+    "ratings": 4.5
+  },
+  {
+    "name": "Apple MacBook Air 13.3-Inch Retina Display 8-core Apple M1 chip with 8GB RAM, 256GB SSD (MGN63) Space Gray",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/space-gray/13-inch/macbook-air-13-3-inch-228x228.webp",
+    "description": [
+      "Processor: Apple M1 chip with 8-core CPU and 7-core GPU",
+      "RAM: 8GB, Storage: 256GB SSD",
+      "Display: 13.3-inch 2560x1600 LED-backlit Retina",
+      "Features: Backlit Magic Keyboard"
+    ],
+    "price": 97000,
+    "createdAt": "2024-08-14T14:20:30Z",
+    "brand": "Apple",
+    "category": "Laptops",
+    "ratings": 4.8
+  },
+  {
+    "name": "MSI Modern 14 C12M Core i3 12th Gen 14\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-c12m/modern-14-c12m-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i3-1215U (10M Cache, 3.30 GHz, up to 4.40 GHz)",
+      "RAM: 8GB 3200MHz, Storage: 512GB SSD",
+      "Display: 14\" FHD (1920 x 1080)",
+      "Feature: Backlit Keyboard, Type-C"
+    ],
+    "price": 54000,
+    "createdAt": "2024-08-14T15:05:42Z",
+    "brand": "MSI",
+    "category": "Laptops",
+    "ratings": 4.3
+  },
+  {
+    "name": "MSI Modern 14 C12MO Core i3 12th Gen 14\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-c12m/modern-14-c12m-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i3-1215U (10M Cache, up to 4.40 GHz)",
+      "RAM: 16GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 14\" FHD (1920 x 1080)",
+      "Features: Backlit Keyboard, Type-C"
+    ],
+    "price": 58500,
+    "createdAt": "2024-08-14T16:10:11Z",
+    "brand": "MSI",
+    "category": "Laptops",
+    "ratings": 4.4
+  },
+  {
+    "name": "Lenovo IdeaPad Flex 5 14ALC7 AMD Ryzen 5 5500U 14\" Touchscreen Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-flex-5-14alc7/ideapad-flex-5-14alc7-08-228x228.webp",
+    "description": [
+      "Processor: AMD Ryzen 5 5500U (2.1GHz up to 4.0GHz)",
+      "RAM: 16GB LPDDR4x Storage: 512GB SSD",
+      "Display: 14\" WUXGA (1920x1200) IPS",
+      "Features: Backlit Keyboard, Touch, Type-C"
+    ],
+    "price": 85000,
+    "createdAt": "2024-08-14T16:55:35Z",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "ratings": 4.6
+  },
+  {
+    "name": "HP 250 G8 Intel Celeron N4020 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/250-g8-ash-black/250-g8-ash-black-01-228x228.webp",
+    "description": [
+      "Processor: Intel Celeron N4020 (4M Cache, 1.10 GHz up to 2.80 GHz)",
+      "RAM: 4GB DDR4 3200MHz, Storage: 1TB HDD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Features: Full-size keyboard with numeric keypad, Type-C"
+    ],
+    "price": 32500,
+    "createdAt": "2024-08-14T17:33:25Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.1
+  },
+  {
+    "name": "Apple MacBook Air (2022) Apple M2 Chip 13.6-Inch Liquid Retina Display 8GB RAM 256GB SSD Silver #MLXY3LL/A / MLXY3ZP/A",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air-m2-chip/macbook-air-m2-chip-silver-01-228x228.webp",
+    "description": [
+      "Processor: Apple M2 chip, 8-core CPU with 4 performance cores and 4 efficiency cores",
+      "RAM: 8GB, Storage: 256GB SSD",
+      "Display: 13.6\" Liquid Retina display (2560 x 1664)",
+      "Features: Backlit Magic Keyboard and the Touch ID"
+    ],
+    "price": 128000,
+    "createdAt": "2024-08-14T18:12:48Z",
+    "brand": "Apple",
+    "category": "Laptops",
+    "ratings": 4.9
+  },
+  {
+    "name": "Lenovo IdeaPad Flex 5 14ALC7 AMD Ryzen 7 5700U 14\" Touchscreen Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-flex-5-14alc7/ideapad-flex-5-14alc7-08-228x228.webp",
+    "description": [
+      "Processor: AMD Ryzen 7 5700U (1.8GHz up to 4.3GHz)",
+      "RAM: 16GB LPDDR4x Storage: 512GB SSD",
+      "Display: 14\" WUXGA (1920x1200) IPS",
+      "Features: Backlit Keyboard, Touch, Type-C"
+    ],
+    "price": 95000,
+    "createdAt": "2024-08-14T18:53:59Z",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "ratings": 4.7
+  },
+  {
+    "name": "HP 15s-fq3234TU Celeron N4500 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-fq2597tu/15s-fq2597tu-01-228x228.jpg",
+    "description": [
+      "Processor: Intel Celeron N4500 (4M Cache, 1.10 GHz up to 2.80 GHz)",
+      "RAM: 4 GB 2933 MHz, Storage: 256 GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: Dual speakers, Type-C"
+    ],
+    "price": 34000,
+    "createdAt": "2024-08-14T19:20:10Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.2
+  },
+  {
+    "name": "MSI Modern 14 C7M AMD Ryzen 5 7530U 14\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-c7m/modern-14-c7m-01-228x228.webp",
+    "description": [
+      "Processor: AMD Ryzen 5 7530U (2.0GHz up to 4.5GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 14\" FHD (1920 x 1080)",
+      "Feature: Backlit Keyboard, Type-C"
+    ],
+    "price": 62000,
+    "createdAt": "2024-08-14T19:45:01Z",
+    "brand": "MSI",
+    "category": "Laptops",
+    "ratings": 4.4
+  },
+  {
+    "name": "Lenovo V15 G3 IAP Core i5 12th Gen 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/v15-g3-iap/v15-g3-iap-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i5-1235U (12M Cache, up to 4.40 GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: Dolby Audio, Type-C"
+    ],
+    "price": 66500,
+    "createdAt": "2024-08-14T20:10:22Z",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "ratings": 4.5
+  },
+  {
+    "name": "ASUS Vivobook 15 X1502ZA Core i5 12th Gen 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-x1502za/vivobook-x1502za-01-228x228.jpg",
+    "description": [
+      "Processor: Intel Core i5-1240P (12M Cache, up to 4.40 GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: Fingerprint Sensor, Type-C"
+    ],
+    "price": 69500,
+    "createdAt": "2024-08-14T20:42:35Z",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "ratings": 4.5
+  },
+  {
+    "name": "HP 15s-fq2553TU Core i3 11th Gen 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-fq2597tu/15s-fq2597tu-01-228x228.jpg",
+    "description": [
+      "Processor: Intel Core i3-1115G4 (6M Cache, up to 4.10 GHz)",
+      "RAM: 4 GB DDR4 2666MHz, Storage: 512 GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: Dual speakers, Type-C"
+    ],
+    "price": 52000,
+    "createdAt": "2024-08-14T21:15:05Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.3
+  },
+  {
+    "name": "HP Pavilion 15-eh1105AU Ryzen 5 5500U 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/pavilion-15-eh1105au/pavilion-15-eh1105au-01-228x228.jpg",
+    "description": [
+      "Processor: AMD Ryzen 5 5500U (2.1 GHz up to 4.0 GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: B&O Audio, Backlit Keyboard, Type-C"
+    ],
+    "price": 71500,
+    "createdAt": "2024-08-14T21:50:30Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.6
+  },
+  {
+    "name": "HP 15s-eq3235AU Ryzen 5 7520U 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-eq3235au/15s-eq3235au-01-228x228.jpg",
+    "description": [
+      "Processor: AMD Ryzen 5 7520U (2.8GHz up to 4.3GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: Dual speakers, Type-C"
+    ],
+    "price": 62000,
+    "createdAt": "2024-08-14T22:25:05Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.4
+  },
+  {
+    "name": "HP Pavilion 15-eh2026AU Ryzen 5 5625U 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/pavilion-15-eh2026au/pavilion-15-eh2026au-01-228x228.jpg",
+    "description": [
+      "Processor: AMD Ryzen 5 5625U (2.3 GHz up to 4.3 GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: B&O Audio, Backlit Keyboard, Type-C"
+    ],
+    "price": 76000,
+    "createdAt": "2024-08-14T23:01:30Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.7
+  },
+  {
+    "name": "Dell Latitude 3520 Core i3 11th Gen 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/latitude-3520/latitude-3520-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i3-1115G4 (6M Cache, up to 4.10 GHz)",
+      "RAM: 4GB DDR4 2666MHz, Storage: 1TB HDD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Features: Backlit Keyboard, Type-C"
+    ],
+    "price": 51500,
+    "createdAt": "2024-08-14T23:30:40Z",
+    "brand": "Dell",
+    "category": "Laptops",
+    "ratings": 4.2
+  },
+  {
+    "name": "HP 14s-dq5550TU Core i3 12th Gen 14\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/14s-dq5550tu/14s-dq5550tu-01-228x228.jpg",
+    "description": [
+      "Processor: Intel Core i3-1215U (10M Cache, up to 4.40 GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 256GB SSD",
+      "Display: 14\" FHD (1920 x 1080)",
+      "Feature: Dual speakers, Type-C"
+    ],
+    "price": 52000,
+    "createdAt": "2024-08-14T23:57:20Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.3
+  },
+  {
+    "name": "HP Pavilion 15-eg2006TX Core i5 12th Gen 15.6\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/pavilion-15-eg2006tx/pavilion-15-eg2006tx-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i5-1235U (12M Cache, up to 4.40 GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 15.6\" FHD (1920 x 1080)",
+      "Feature: B&O Audio, Type-C"
+    ],
+    "price": 78500,
+    "createdAt": "2024-08-15T00:23:05Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.7
+  },
+  {
+    "name": "HP 14s-dq5580TU Core i5 12th Gen 14\" FHD Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/14s-dq5550tu/14s-dq5550tu-01-228x228.jpg",
+    "description": [
+      "Processor: Intel Core i5-1235U (12M Cache, up to 4.40 GHz)",
+      "RAM: 8GB DDR4 3200MHz, Storage: 512GB SSD",
+      "Display: 14\" FHD (1920 x 1080)",
+      "Feature: Dual speakers, Type-C"
+    ],
+    "price": 72000,
+    "createdAt": "2024-08-15T00:49:40Z",
+    "brand": "HP",
+    "category": "Laptops",
+    "ratings": 4.5
+  },
+  {
+    "name": "Apple MacBook Pro 13-inch M2 chip, 8-core CPU and 10-core GPU, 8GB RAM, 256GB SSD, Space Gray",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-13-inch-m2-chip/macbook-pro-13-inch-m2-chip-01-228x228.webp",
+    "description": [
+      "Processor: Apple M2 chip with 8-core CPU and 10-core GPU",
+      "RAM: 8GB, Storage: 256GB SSD",
+      "Display: 13.3-inch Retina Display (2560 x 1600)",
+      "Features: Magic Keyboard, Touch Bar"
+    ],
+    "price": 137000,
+    "createdAt": "2024-08-15T01:25:20Z",
+    "brand": "Apple",
+    "category": "Laptops",
+    "ratings": 4.9
+  },
+  {
+    "name": "Apple MacBook Pro 16-inch M1 Pro chip, 10-core CPU, 16-core GPU, 16GB RAM, 512GB SSD, Space Gray",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/m1-pro/macbook-pro-16-inch-m1-pro-01-228x228.webp",
+    "description": [
+      "Processor: Apple M1 Pro chip with 10-core CPU and 16-core GPU",
+      "RAM: 16GB, Storage: 512GB SSD",
+      "Display: 16.2-inch Liquid Retina XDR display (3456 x 2234)",
+      "Features: Magic Keyboard, Touch Bar"
+    ],
+    "price": 247000,
+    "createdAt": "2024-08-15T01:53:45Z",
+    "brand": "Apple",
+    "category": "Laptops",
+    "ratings": 5.0
+  },
+  {
+    "name": "Dell XPS 13 Plus 9320 Core i7 12th Gen 13.4\" UHD+ Touch Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/xps-13-plus-9320/xps-13-plus-9320-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i7-1260P (18M Cache, up to 4.70 GHz)",
+      "RAM: 16GB LPDDR5, Storage: 1TB SSD",
+      "Display: 13.4\" UHD+ (3840 x 2400) Touch",
+      "Features: Backlit Keyboard, Type-C"
+    ],
+    "price": 285000,
+    "createdAt": "2024-08-15T02:22:10Z",
+    "brand": "Dell",
+    "category": "Laptops",
+    "ratings": 4.8
+  },
+  {
+    "name": "Dell Latitude 9430 2-in-1 Core i7 12th Gen 14\" QHD+ Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/latitude-9430/latitude-9430-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i7-1265U (12M Cache, up to 4.80 GHz)",
+      "RAM: 16GB LPDDR4x, Storage: 512GB SSD",
+      "Display: 14\" QHD+ (2560 x 1600) Touch",
+      "Features: Backlit Keyboard, Fingerprint Sensor, Type-C"
+    ],
+    "price": 330000,
+    "createdAt": "2024-08-15T02:55:30Z",
+    "brand": "Dell",
+    "category": "Laptops",
+    "ratings": 4.9
+  },
+  {
+    "name": "Lenovo ThinkPad X1 Carbon Gen 10 Core i7 12th Gen 14\" 2.2K Laptop",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/thinkpad-x1-carbon-gen-10/thinkpad-x1-carbon-gen-10-01-228x228.webp",
+    "description": [
+      "Processor: Intel Core i7-1260P (18M Cache, up to 4.70 GHz)",
+      "RAM: 16GB LPDDR5, Storage: 1TB SSD",
+      "Display: 14\" 2.2K (2240 x 1400)",
+      "Features: Backlit Keyboard, Fingerprint Sensor, Type-C"
+    ],
+    "price": 305000,
+    "createdAt": "2024-08-15T03:23:40Z",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "ratings": 4.9
+  },
+  {
+    "name": "Dahua-HAC-T1A21P 2MP HDCVI IR Eyeball camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cc-camera/dahua/hac-t1a21/dahua-hac-t1a21-1-228x228.jpg",
+    "description": [
+      "Resolution: 2MP",
+      "Lens:  3.6mm Fixed",
+      "IR Distance:  20m"
+    ],
+    "price": 1400,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Dahua",
+    "category": "Camera",
+    "ratings": 4.0
+  },
+  {
+    "name": "Dahua HAC-B1A21P 2MP HDCVI IR Bullet Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/dh-hac-ba-21p/dahua-hac-b1a21p-2mp-hdcvi-ir-bullet-camera-228x228.jpg",
+    "description": [
+      "Max. 30fps@1080P",
+      "HD and SD output switchable",
+      "3.6mm fixed lens",
+      "Smart 20m IR"
+    ],
+    "price": 1450,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Dahua",
+    "category": "Camera",
+    "ratings": 4.2
+  },
+  {
+    "name": "Dahua DH-HAC-HDW1209CLQP-A-LED 2MP Dome CC Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cc-camera/dahua/dh-hac-hdw1209clqp-a-led/dh-hac-hdw1209clqp-a-led-02-228x228.webp",
+    "description": [
+      "Image Sensor: 2MP CMOS",
+      "Effective Pixels: 1920 (H) × 1080 (V)",
+      "IR Distance: 20 m (65.62 ft)",
+      "Quick-to-install eyeball saves installation time"
+    ],
+    "price": 1800,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Dahua",
+    "category": "Camera",
+    "ratings": 4.1
+  },
+  {
+    "name": "Dahua DH-HAC-HFW1209CP-LED 2MP HDCVI IR Bullet Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/dh-hac-hfw1209cp-led/dahua-dh-hac-hfw1209cp-led-2mp-hdcvi-ir-bullet-camera-01-228x228.jpg",
+    "description": [
+      "Max. 30fps@1080P",
+      "HD and SD output switchable",
+      "3.6mm fixed lens",
+      "Smart 20m IR"
+    ],
+    "price": 1860,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Dahua",
+    "category": "Camera",
+    "ratings": 4.3
+  },
+  {
+    "name": "Dahua HAC-HFW-1200RP 2MP HDCVI IR BULLET Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cccamera/Dahua/Dahua%20HAC-HFW-1200RP-228x228.jpg",
+    "description": [
+      "Sensor: 1 / 2.7 2MP CMOS",
+      "Lens: 3.6mm",
+      "IR Range: Up to 20m"
+    ],
+    "price": 1900,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Dahua",
+    "category": "Camera",
+    "ratings": 4.0
+  },
+  {
+    "name": "Dahua HAC-HDW-1200RP 2MP DOME Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cc-camera/dahua/hac-hdw-1200rp/hac-hdw-1200rp-01-228x228.webp",
+    "description": [
+      "Sensor: 1/2.7 CMOS, ICR",
+      "Lens: 3.6mm",
+      "IR Range: Up to 20m"
+    ],
+    "price": 1900,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Dahua",
+    "category": "Camera",
+    "ratings": 4.0
+  },
+  {
+    "name": "Dahua DH-HAC-HFW1209CP-A-LED/HAC-HFW1209CLP-A-LED 2MP Full Color Bullet CC Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/dh-hac-hfw1209cp-a-led/dahua-dh-hac-hfw1209cp-a-led-bullet-cc-camera-228x228.jpg",
+    "description": [
+      "Usage: Indoor & Outdoor",
+      "Type : CC Camera",
+      "Camera Type: Fixed",
+      "Mega Pixel: 2MP"
+    ],
+    "price": 1900,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Dahua",
+    "category": "Camera",
+    "ratings": 4.1
+  },
+  {
+    "name": "Hikvision DS-2CE76D0T-ITMF 2 MP Indoor Fixed Turret Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cc-camera/hikvision/ds-2ce76d0t-itmf/ds-2ce76d0t-itmf-228x228.jpg",
+    "description": [
+      "2 MP, 1920x1080 Resolution",
+      "2.8 mm Fixed Focal lens",
+      "4 in 1 video output (switchable TVI/AHD/CVI/CVBS)",
+      "EXIR 2.0 Smart IR, up to 30 m IR distance"
+    ],
+    "price": 1900,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Hikvision",
+    "category": "Camera",
+    "ratings": 4.2
+  },
+  {
+    "name": "Jovision JVS-A836-LYC 2.0MP Full Color HD Dome Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cc-camera/jovision/jvs-a836-lyc/jvs-a836-lyc-01-228x228.webp",
+    "description": [
+      "Sensor: 1/ 2.9\" CMOS",
+      "Resolution: HD (1920x1080), 2.0MP",
+      "Lens: Board Lens 3.6mm/F2.0",
+      "Feature: Built-in mic, Night Vision"
+    ],
+    "price": 2100,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Jovision",
+    "category": "Camera",
+    "ratings": 4.3
+  },
+  {
+    "name": "FUJIFILM INSTAX mini Instant Film (10 Sheets)",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/instant-camera/fujifilm/instax-mini-instant-film/instax-mini-instant-film-10-sheets-228x228.webp",
+    "description": [
+      "Film Size: 86 x 54 mm",
+      "Image Size: 62 x 46 mm",
+      "10 sheets per pack"
+    ],
+    "price": 2300,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Fujifilm",
+    "category": "Film",
+    "ratings": 4.5
+  },
+  {
+    "name": "Jovision JVS-A839 2.0MP Full Color HD Bullet Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cc-camera/jovision/jvs-a839/jvs-a839-01-228x228.jpg",
+    "description": [
+      "Resolution: 1920 x 1080 (2MP)",
+      "Lens: 3.6mm Board Lens",
+      "Full Color at Night",
+      "Feature: Built-in mic"
+    ],
+    "price": 2300,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Jovision",
+    "category": "Camera",
+    "ratings": 4.4
+  },
+  {
+    "name": "Jovision JVS-A857-LYC 2.0MP Full Color HD Bullet Camera",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cc-camera/jovision/jvs-a857-lyc/jvs-a857-lyc-01-228x228.jpg",
+    "description": [
+      "Resolution: 1920 x 1080 (2MP)",
+      "Lens: 3.6mm Board Lens",
+      "Full Color at Night",
+      "Feature: Built-in mic"
+    ],
+    "price": 2400,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "Jovision",
+    "category": "Camera",
+    "ratings": 4.5
+  },
+  {
+    "name": "MSI PRO Z790-A WIFI DDR4 ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/pro-z790-a-wifi-ddr4/pro-z790-a-wifi-ddr4-01-228x228.webp",
+    "description": [
+      "Supported CPU: 14th/13th/12th Gen Core, Pentium Gold & Celeron Processor (LGA 1700)",
+      "Supported RAM: 4x DDR4, 5333+MHz (OC), Max 128GB",
+      "Graphics Output: 1x HDMI, 1x DisplayPort",
+      "Features: 2.5G LAN with Wi-Fi 6E Solution"
+    ],
+    "price": 28250,
+    "createdAt": "2024-08-14T20:15:00Z",
+    "brand": "MSI",
+    "category": "Motherboard",
+    "ratings": 4.6
+  },
+  {
+    "name": "Asus Pro WS W680-ACE ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/pro-ws-w680-ace/pro-ws-w680-ace-01-228x228.webp",
+    "description": [
+      "Supported CPU: 14th, 13th Gen & 12th Gen Processors (LGA1700)",
+      "Supported Memory: 4 x DIMM, Max. 192GB, DDR5",
+      "Graphics Output: 1 x DisplayPort, 2 x HDMI, 1 x VGA port",
+      "Features: 2 x Intel 2.5Gb Ethernet, ASUS LANGuard"
+    ],
+    "price": 49000,
+    "createdAt": "2024-08-14T20:25:00Z",
+    "brand": "Asus",
+    "category": "Motherboard",
+    "ratings": 4.7
+  },
+  {
+    "name": "ARKTEK AK-H81M EL 4th Gen Micro-ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/arktek/ak-h81m-el/ak-h81m-el-01-228x228.webp",
+    "description": [
+      "Supported CPU: Intel Core i7/i5/i3/Pentium/ Celeron for LGA1150",
+      "Supported RAM: 2x DIMM, DDR3 1066/1333/1600MHz",
+      "Graphics Output: 1 x HDMI, 1 x VGA Port",
+      "Features: Realtek RTL8105E/8111E Gigabit 100/1000 Mbps"
+    ],
+    "price": 5100,
+    "createdAt": "2024-08-14T20:30:00Z",
+    "brand": "ARKTEK",
+    "category": "Motherboard",
+    "ratings": 4.2
+  },
+  {
+    "name": "GIGABYTE GA-J1800M-D3P Motherboard with Built In 2.41Ghz DDR3 Celeron Processor",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/Motherboard/Gigabyte/GIGABYTE%20GA-J1800M-D3P/GIGABYTE%20GA-J1800M-D3P-1-228x228.jpg",
+    "description": [
+      "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)",
+      "2 x DDR3 DIMM Dual Memory",
+      "1 x PCI Express x16 slot, running at x1",
+      "1 x Trusted Platform Module (TPM) header"
+    ],
+    "price": 6000,
+    "createdAt": "2024-08-14T20:45:00Z",
+    "brand": "GIGABYTE",
+    "category": "Motherboard",
+    "ratings": 4.4
+  },
+  {
+    "name": "MSI A520M-A Pro AM4 AMD Micro-ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/a520m-a-pro/a520m-a-pro-228x228.jpg",
+    "description": [
+      "AMD Ryzen 5000/4000G Series & AMD Ryzen 3rd Generation Processors",
+      "PCB with 2OZ Thickened Copper",
+      "Supports up to 4600(OC) MHz RAM",
+      "Core Boost, Turbo M.2 & Audio Boost"
+    ],
+    "price": 7500,
+    "createdAt": "2024-08-14T20:50:00Z",
+    "brand": "MSI",
+    "category": "Motherboard",
+    "ratings": 4.5
+  },
+  {
+    "name": "MSI B450M-A PRO MAX AMD AM4 Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/component/motherboard/msi-ryzan/b450m-a-pro-max/b450m-a-pro-max-1-228x228.jpg",
+    "description": [
+      "Supports 1st, 2nd and 3rd Gen AMD Ryzen",
+      "AMD B450 Chipset",
+      "Turbo M.2 & Audio Boost Technology",
+      "X-Boost & Core Boost Technology"
+    ],
+    "price": 7799,
+    "createdAt": "2024-08-14T21:00:00Z",
+    "brand": "MSI",
+    "category": "Motherboard",
+    "ratings": 4.3
+  },
+  {
+    "name": "ASRock A520M-HVS AMD AM4 Micro ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/asrock/a520m-hvs/a520m-hvs-01-228x228.webp",
+    "description": [
+      "Supported CPU: AM4 Socket Ryzen 3000, 4000 G & 5000 & 5000 G-Series",
+      "Supported RAM: 2 x DDR4, 4733+ (OC)",
+      "Graphics Output: D-Sub, HDMI",
+      "Features: 1 x Ultra M.2, Realtek Gigabit LAN"
+    ],
+    "price": 8400,
+    "createdAt": "2024-08-14T21:15:00Z",
+    "brand": "ASRock",
+    "category": "Motherboard",
+    "ratings": 4.4
+  },
+  {
+    "name": "BIOSTAR B550MH DDR4 AMD AM4 Micro ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/biostar/b550mh/b550mh-01-228x228.webp",
+    "description": [
+      "Supported CPU: Ryzen 3rd Gen and 4th Gen processors",
+      "Supported RAM: 2x DIMM, DDR4 4933+(OC)",
+      "Graphics Output: 1 x HDMI, 1 x VGA Port",
+      "Features: 1 x M.2 Slot, Realtek RTL8111H"
+    ],
+    "price": 8300,
+    "createdAt": "2024-08-14T21:30:00Z",
+    "brand": "BIOSTAR",
+    "category": "Motherboard",
+    "ratings": 4.3
+  },
+  {
+    "name": "Gigabyte H410M S2H 10th Gen Micro ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/h410m-s2h/h410m-s2h-228x228.jpg",
+    "description": [
+      "Intel Socket LGA1200 for 10th Gen Processors",
+      "Dual Channel Non-ECC Unbuffered DDR4, 2 DIMMs",
+      "8-Channel HD Audio with High-Quality Audio Capacitors",
+      "Ultra-Fast M.2 with PCIe Gen3 X2 & SATA Interface"
+    ],
+    "price": 8900,
+    "createdAt": "2024-08-14T21:45:00Z",
+    "brand": "Gigabyte",
+    "category": "Motherboard",
+    "ratings": 4.6
+  },
+  {
+    "name": "ASRock H470M-HDV/M.2 10th Gen Micro ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/asrock/h470m-hdv-m-2/h470m-hdv-m-2-01-228x228.webp",
+    "description": [
+      "CPU Support: 10th Gen Intel Core Processors (Socket 1200)",
+      "RAM Support: DDR4 2933 MHz",
+      "Graphics Output: HDMI, DVI-D, D-Sub",
+      "4 SATA3, 1 Ultra M.2 (PCIe Gen3 x4 & SATA3)"
+    ],
+    "price": 8800,
+    "createdAt": "2024-08-14T22:00:00Z",
+    "brand": "ASRock",
+    "category": "Motherboard",
+    "ratings": 4.5
+  },
+  {
+    "name": "GIGABYTE H410M H V3 10th Gen Micro ATX Motherboard",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/h410m-h-v3/h410m-h-v3-01-228x228.jpg",
+    "description": [
+      "Supports 10th Gen Intel Core, Pentium Gold & Celeron Processors",
+      "Dual Channel Non-ECC Unbuffered DDR4, 2 DIMMs",
+      "Ultra-Fast M.2 with PCIe Gen3 X4 & SATA Interface",
+      "Realtek Gigabit LAN"
+    ],
+    "price": 9500,
+    "createdAt": "2024-08-14T22:15:00Z",
+    "brand": "GIGABYTE",
+    "category": "Motherboard",
+    "ratings": 4.6
+  }
+]

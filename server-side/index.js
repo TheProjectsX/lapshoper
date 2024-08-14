@@ -44,11 +44,13 @@ app.get("/products", async (req, res) => {
     priceSort,
   } = req.query;
 
-  let priceMin = 0,
-    priceMax = Infinity;
+  let priceMin = 0;
+  let priceMax = Infinity;
   try {
     priceMin = parseInt(priceRange.split("-")[0], 10);
     priceMax = parseInt(priceRange.split("-")[1], 10);
+    priceMin = isNaN(priceMin) ? 0 : priceMin;
+    priceMax = isNaN(priceMax) ? Infinity : priceMax;
   } catch (error) {}
 
   try {
@@ -106,17 +108,34 @@ app.get("/products", async (req, res) => {
     });
   }
 
-  pipeline.push(
-    {
-      $skip: skip,
-    },
-    {
-      $limit: limit,
-    }
-  );
-
   try {
-    returnData = await db.collection("products").aggregate(pipeline).toArray();
+    const data = await db
+      .collection("products")
+      .aggregate([
+        ...pipeline,
+        {
+          $skip: skip,
+        },
+        {
+          $limit: limit,
+        },
+      ])
+      .toArray();
+
+    const count = await db
+      .collection("products")
+      .aggregate([
+        ...pipeline,
+        {
+          $count: "totalCount",
+        },
+      ])
+      .toArray();
+
+    returnData = {
+      data,
+      count: count[0].totalCount ?? 0,
+    };
   } catch (error) {
     console.error(error);
     return res.status(500).json({
@@ -126,7 +145,7 @@ app.get("/products", async (req, res) => {
     });
   }
 
-  res.json(returnData);
+  res.json({ success: true, ...returnData });
 });
 
 // Connecting to MongoDB first, then Starting the Server
