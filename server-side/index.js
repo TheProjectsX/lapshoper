@@ -33,7 +33,7 @@ app.get("/", async (req, res) => {
 
 app.get("/products", async (req, res) => {
   let returnData;
-  const {
+  let {
     skip = 0,
     limit = 15,
     search,
@@ -51,6 +51,14 @@ app.get("/products", async (req, res) => {
     priceMax = parseInt(priceRange.split("-")[1], 10);
   } catch (error) {}
 
+  try {
+    skip = parseInt(skip, 10);
+  } catch (error) {}
+
+  try {
+    limit = parseInt(limit, 10);
+  } catch (error) {}
+
   const pipeline = [
     {
       $match: {
@@ -59,12 +67,6 @@ app.get("/products", async (req, res) => {
           $lte: priceMax,
         },
       },
-    },
-    {
-      $skip: skip,
-    },
-    {
-      $limit: limit,
     },
   ];
 
@@ -84,7 +86,7 @@ app.get("/products", async (req, res) => {
     });
   }
 
-  if (category) {
+  if (brand) {
     pipeline.push({
       $match: {
         brand: { $regex: brand, $options: "i" },
@@ -104,8 +106,19 @@ app.get("/products", async (req, res) => {
     });
   }
 
+  pipeline.push(
+    {
+      $skip: skip,
+    },
+    {
+      $limit: limit,
+    }
+  );
+
   try {
+    returnData = await db.collection("products").aggregate(pipeline).toArray();
   } catch (error) {
+    console.error(error);
     return res.status(500).json({
       success: false,
       message: "Internal server error",
@@ -113,7 +126,7 @@ app.get("/products", async (req, res) => {
     });
   }
 
-  res.json({});
+  res.json(returnData);
 });
 
 // Connecting to MongoDB first, then Starting the Server
