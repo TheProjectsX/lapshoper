@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="max-w-[1100px] mx-auto space-y-5">
       <Navbar />
-      <main className="px-5">
+      <main className="px-4 lg:px-0">
         <Outlet />
       </main>
       <Footer />

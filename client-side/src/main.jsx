@@ -11,6 +11,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [{ path: "/", element: <Home /> }],
+    // loader: () => fetch(`${import.meta.env.VITE_SERVER_URL}/products`)
   },
 ]);
 
