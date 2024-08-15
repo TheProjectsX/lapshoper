@@ -38,8 +38,8 @@ app.get("/products", async (req, res) => {
     skip = 0,
     limit = 15,
     search,
-    category,
-    brand,
+    categories,
+    brands,
     priceRange,
     newestFirst,
     priceSortBy,
@@ -82,8 +82,8 @@ app.get("/products", async (req, res) => {
     });
   }
 
-  if (category && category !== "") {
-    const regexArray = category
+  if (categories && categories !== "") {
+    const regexArray = categories
       .split(",")
       .map((item) => new RegExp(item.trim(), "i"));
     pipeline.push({
@@ -93,8 +93,8 @@ app.get("/products", async (req, res) => {
     });
   }
 
-  if (brand && brand !== "") {
-    const regexArray = brand
+  if (brands && brands !== "") {
+    const regexArray = brands
       .split(",")
       .map((item) => new RegExp(item.trim(), "i"));
     pipeline.push({
