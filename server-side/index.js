@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: [],
+    origin: ["http://localhost:5173"],
   })
 );
 
@@ -42,7 +42,7 @@ app.get("/products", async (req, res) => {
     brand,
     priceRange,
     newestFirst,
-    priceSort,
+    priceSortBy,
   } = req.query;
 
   let priceMin = 0;
@@ -72,6 +72,7 @@ app.get("/products", async (req, res) => {
       },
     },
   ];
+  const sortBy = {};
 
   if (search) {
     pipeline.push({
@@ -97,18 +98,18 @@ app.get("/products", async (req, res) => {
     });
   }
 
+  if (priceSortBy && (priceSortBy === "high" || priceSortBy === "low")) {
+    sortBy["price"] = priceSortBy === "high" ? -1 : 1;
+  }
   if (newestFirst && newestFirst === "true") {
-    pipeline.push({
-      $sort: { createdAt: -1 },
-    });
+    sortBy["createdAt"] = -1;
   }
 
-  if (priceSort && (priceSort === "high" || priceSort === "low")) {
+  if (Object.keys(sortBy).length > 0) {
     pipeline.push({
-      $sort: { price: priceSort === "high" ? -1 : 1 },
+      $sort: sortBy,
     });
   }
-
   try {
     const data = await db
       .collection("products")
