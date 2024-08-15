@@ -8,6 +8,7 @@ import Home from "./routes/Home.jsx";
 import Login from "./routes/Login.jsx";
 import SignUp from "./routes/Signup.jsx";
 import PrivateRoute from "./components/PrivateRoute.jsx";
+import About from "./routes/About.jsx";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
             <SignUp />
           </PrivateRoute>
         ),
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
     ],
   },
