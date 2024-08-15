@@ -5,6 +5,9 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home.jsx";
+import Login from "./routes/Login.jsx";
+import SignUp from "./routes/Signup.jsx";
+import PrivateRoute from "./components/PrivateRoute.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +16,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: (
+          <PrivateRoute>
+            <Home />
+          </PrivateRoute>
+        ),
         loader: async () => [
           await (
             await fetch(`${import.meta.env.VITE_SERVER_URL}/products`)
@@ -22,6 +29,22 @@ const router = createBrowserRouter([
             await fetch(`${import.meta.env.VITE_SERVER_URL}/get-filter-data`)
           ).json(),
         ],
+      },
+      {
+        path: "/login",
+        element: (
+          <PrivateRoute reverse>
+            <Login />
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/sign-up",
+        element: (
+          <PrivateRoute reverse>
+            <SignUp />
+          </PrivateRoute>
+        ),
       },
     ],
   },
