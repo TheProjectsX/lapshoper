@@ -2,6 +2,15 @@
 
 A MERN Stack web application of Computer Products.
 
+## Live Link:
+
+[https://lapshopper.vercel.app](https://lapshopper.vercel.app)
+
+**Test Credentials**
+
+- Email: admin@lapshopper.com
+- Password: LapShopper#123
+
 ## RUN:
 
 ### Frontend:
