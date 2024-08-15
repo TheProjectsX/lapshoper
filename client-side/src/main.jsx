@@ -14,7 +14,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch(`${import.meta.env.VITE_SERVER_URL}/products`),
+        loader: async () => [
+          await (
+            await fetch(`${import.meta.env.VITE_SERVER_URL}/products`)
+          ).json(),
+          await (
+            await fetch(`${import.meta.env.VITE_SERVER_URL}/get-filter-data`)
+          ).json(),
+        ],
       },
     ],
   },
