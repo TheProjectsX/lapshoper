@@ -82,18 +82,24 @@ app.get("/products", async (req, res) => {
     });
   }
 
-  if (category) {
+  if (category && category !== "") {
+    const regexArray = category
+      .split(",")
+      .map((item) => new RegExp(item.trim(), "i"));
     pipeline.push({
       $match: {
-        category: { $regex: category, $options: "i" },
+        category: { $in: regexArray },
       },
     });
   }
 
-  if (brand) {
+  if (brand && brand !== "") {
+    const regexArray = brand
+      .split(",")
+      .map((item) => new RegExp(item.trim(), "i"));
     pipeline.push({
       $match: {
-        brand: { $regex: brand, $options: "i" },
+        brand: { $in: regexArray },
       },
     });
   }
@@ -136,7 +142,7 @@ app.get("/products", async (req, res) => {
 
     returnData = {
       data,
-      count: count[0].totalCount ?? 0,
+      count: count[0]?.totalCount ?? 0,
     };
   } catch (error) {
     console.error(error);
