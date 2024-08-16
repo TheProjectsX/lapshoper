@@ -17,7 +17,7 @@ A MERN Stack web application of Computer Products.
 
 - Go to client-side
 - Fill the Environment Variables
-- RUN:
+- RUN on Terminal:
 
 ```shell script
 npm i
@@ -28,7 +28,7 @@ npm run dev
 
 - Go to server-side
 - Fill the Environment Variables
-- RUN:
+- RUN on Terminal:
 
 ```shell script
 npm i
