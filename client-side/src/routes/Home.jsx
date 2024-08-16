@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import { useLoaderData } from "react-router-dom";
 import { Pagination } from "flowbite-react";
+import { LuArrowUpDown } from "react-icons/lu";
 
 const Home = () => {
   const [productsDataMain, filterData] = useLoaderData();
@@ -104,7 +105,7 @@ const Home = () => {
           <h5 className="text-center font-semibold text-2xl dark:text-white underline underline-offset-4 mb-5">
             Filter Products
           </h5>
-          <div className="p-4 rounded-lg min-w-72 max-h-[600px] overflow-auto">
+          <div className="p-4 rounded-lg max-h-96 sm:max-h-[600px] overflow-auto">
             <div>
               <p className="text-xl font-semibold dark:text-white">Price:</p>
               <label>
@@ -211,116 +212,114 @@ const Home = () => {
       <h4 className="text-center text-2xl font-semibold dark:text-white mb-7 underline underline-offset-4">
         Choose your PC parts easily!
       </h4>
-      <div className="mb-6 flex justify-between gap-5 items-center">
-        <button
-          className="btn btn-neutral"
-          onClick={() => document.getElementById("my_modal_2").showModal()}
-        >
-          Filter
-          <svg
-            className="w-5"
-            viewBox="0 0 24 24"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
+      <div className="mb-6 flex justify-between gap-5 flex-wrap items-center">
+        <div className="flex gap-4">
+          <button
+            className="btn btn-neutral"
+            onClick={() => document.getElementById("my_modal_2").showModal()}
           >
-            <title>Filter</title>
-            <g
-              id="Page-1"
-              stroke="none"
-              strokeWidth="1"
-              fill="none"
-              fillRule="evenodd"
+            Filter
+            <svg
+              className="w-5"
+              viewBox="0 0 24 24"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <g id="Filter">
-                <rect
-                  id="Rectangle"
-                  fillRule="nonzero"
-                  x="0"
-                  y="0"
-                  width="24"
-                  height="24"
-                ></rect>
-                <line
-                  x1="4"
-                  y1="5"
-                  x2="16"
-                  y2="5"
-                  id="Path"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                ></line>
-                <line
-                  x1="4"
-                  y1="12"
-                  x2="10"
-                  y2="12"
-                  id="Path"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                ></line>
-                <line
-                  x1="14"
-                  y1="12"
-                  x2="20"
-                  y2="12"
-                  id="Path"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                ></line>
-                <line
-                  x1="8"
-                  y1="19"
-                  x2="20"
-                  y2="19"
-                  id="Path"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                ></line>
-                <circle
-                  id="Oval"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  cx="18"
-                  cy="5"
-                  r="2"
-                ></circle>
-                <circle
-                  id="Oval"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  cx="12"
-                  cy="12"
-                  r="2"
-                ></circle>
-                <circle
-                  id="Oval"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  cx="6"
-                  cy="19"
-                  r="2"
-                ></circle>
+              <title>Filter</title>
+              <g
+                id="Page-1"
+                stroke="none"
+                strokeWidth="1"
+                fill="none"
+                fillRule="evenodd"
+              >
+                <g id="Filter">
+                  <rect
+                    id="Rectangle"
+                    fillRule="nonzero"
+                    x="0"
+                    y="0"
+                    width="24"
+                    height="24"
+                  ></rect>
+                  <line
+                    x1="4"
+                    y1="5"
+                    x2="16"
+                    y2="5"
+                    id="Path"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  ></line>
+                  <line
+                    x1="4"
+                    y1="12"
+                    x2="10"
+                    y2="12"
+                    id="Path"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  ></line>
+                  <line
+                    x1="14"
+                    y1="12"
+                    x2="20"
+                    y2="12"
+                    id="Path"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  ></line>
+                  <line
+                    x1="8"
+                    y1="19"
+                    x2="20"
+                    y2="19"
+                    id="Path"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  ></line>
+                  <circle
+                    id="Oval"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    cx="18"
+                    cy="5"
+                    r="2"
+                  ></circle>
+                  <circle
+                    id="Oval"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    cx="12"
+                    cy="12"
+                    r="2"
+                  ></circle>
+                  <circle
+                    id="Oval"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    cx="6"
+                    cy="19"
+                    r="2"
+                  ></circle>
+                </g>
               </g>
-            </g>
-          </svg>
-        </button>
-        {/* <div className="dropdown">
-          <div tabIndex={0} className="dropdown-content z-[1] pt-2 -left-24">
-            
-          </div>
-        </div> */}
+            </svg>
+          </button>
+          <div className={`loading ${!pageLoading ? "invisible" : ""}`}></div>
+        </div>
 
         {/* Sort by Price */}
-        <div className="flex items-center gap-5">
-          <label className="flex gap-5 items-center">
+        <div className="flex items-end gap-5">
+          <label className="flex gap-5 flex-wrap items-center">
             Sort By:
             <select
               value={priceSortBy}
@@ -337,7 +336,7 @@ const Home = () => {
             className="btn btn-neutral"
             onClick={() => setNewestFirst(!newestFirst)}
           >
-            {newestFirst ? "Default" : "Newest First"}
+            {newestFirst ? "Default" : "Newest First"} <LuArrowUpDown />
           </button>
         </div>
       </div>
