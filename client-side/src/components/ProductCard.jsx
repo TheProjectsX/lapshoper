@@ -14,8 +14,11 @@ const ProductCard = ({ item }) => {
       <h3 className="font-lato font-semibold dark:text-white mb-3">
         {item.name}
       </h3>
-      <p className="underline underline-offset-4 font-semibold mb-3">
-        Description:
+      <p className="flex justify-between items-center gap-2 flex-wrap mb-3">
+        <span className="underline underline-offset-4 font-semibold">
+          Description:
+        </span>
+        <span>({new Date(item.createdAt).toLocaleString()})</span>
       </p>
       <ul className="pl-6 list-disc space-y-2 mb-3 text-sm flex-grow">
         {item.description.map((desc, idx) => (
