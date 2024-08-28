@@ -12,6 +12,7 @@ const Home = () => {
   const itemsPerPage = 15;
 
   // Filters
+  const [searchBy, setSearchBy] = useState("");
   const [priceSortBy, setPriceSortBy] = useState("");
   const [newestFirst, setNewestFirst] = useState(false);
   const [filterCategories, setFilterCategories] = useState([]);
@@ -43,7 +44,7 @@ const Home = () => {
       const res = await fetch(
         `${
           import.meta.env.VITE_SERVER_URL
-        }/products?skip=${skip}&limit=${itemsPerPage}&priceSortBy=${priceSortBy}&newestFirst=${newestFirst}&priceRange=${priceRange}&categories=${categories}&brands=${brands}`
+        }/products?search=${searchBy}&skip=${skip}&limit=${itemsPerPage}&priceSortBy=${priceSortBy}&newestFirst=${newestFirst}&priceRange=${priceRange}&categories=${categories}&brands=${brands}`
       );
 
       const data = await res.json();
@@ -52,7 +53,7 @@ const Home = () => {
       setTotalPages(data.count ?? 0);
     };
     loadData();
-  }, [currentPage, priceSortBy, newestFirst]);
+  }, [currentPage, priceSortBy, newestFirst, searchBy]);
 
   const applyFilter = async () => {
     const priceRange = `${priceRangeMin}-${priceRangeMax}`;
@@ -316,6 +317,21 @@ const Home = () => {
           </button>
           <div className={`loading ${!pageLoading ? "invisible" : ""}`}></div>
         </div>
+        <form
+          className="flex-grow flex justify-center"
+          onSubmit={(e) => {
+            e.preventDefault();
+            setCurrentPage(1);
+            setSearchBy(e.target.search.value);
+          }}
+        >
+          <input
+            type="text"
+            name="search"
+            placeholder="Search by product name..."
+            className="input input-bordered input-md w-full max-w-xs"
+          />
+        </form>
 
         {/* Sort by Price */}
         <div className="flex items-end gap-5">
