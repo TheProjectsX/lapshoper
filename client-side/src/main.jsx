@@ -11,52 +11,52 @@ import PrivateRoute from "./components/PrivateRoute.jsx";
 import About from "./routes/About.jsx";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
+    {
         path: "/",
-        element: (
-          <PrivateRoute>
-            <Home />
-          </PrivateRoute>
-        ),
-        loader: async () => [
-          await (
-            await fetch(`${import.meta.env.VITE_SERVER_URL}/products`)
-          ).json(),
-          await (
-            await fetch(`${import.meta.env.VITE_SERVER_URL}/get-filter-data`)
-          ).json(),
+        element: <App />,
+        children: [
+            {
+                path: "/",
+                element: <Home />,
+                loader: async () => [
+                    await (
+                        await fetch(
+                            `${import.meta.env.VITE_SERVER_URL}/products`
+                        )
+                    ).json(),
+                    await (
+                        await fetch(
+                            `${import.meta.env.VITE_SERVER_URL}/get-filter-data`
+                        )
+                    ).json(),
+                ],
+            },
+            {
+                path: "/login",
+                element: (
+                    <PrivateRoute reverse>
+                        <Login />
+                    </PrivateRoute>
+                ),
+            },
+            {
+                path: "/sign-up",
+                element: (
+                    <PrivateRoute reverse>
+                        <SignUp />
+                    </PrivateRoute>
+                ),
+            },
+            {
+                path: "/about",
+                element: <About />,
+            },
         ],
-      },
-      {
-        path: "/login",
-        element: (
-          <PrivateRoute reverse>
-            <Login />
-          </PrivateRoute>
-        ),
-      },
-      {
-        path: "/sign-up",
-        element: (
-          <PrivateRoute reverse>
-            <SignUp />
-          </PrivateRoute>
-        ),
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-    ],
-  },
+    },
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+    <StrictMode>
+        <RouterProvider router={router} />
+    </StrictMode>
 );
